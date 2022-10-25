@@ -78,14 +78,29 @@ nav.navbar-transparente {
 
 /* Estrutura de conteúdos
 ------------------------------------ */
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
 #servicos {
     background: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 #servicos h2, h3 {
     color: #7c25f8;
+}
+
+#recursos {
+    color: white;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color:  #9bf0e1;
 }
 
 .albuns {
@@ -112,9 +127,6 @@ h3 {
     font-weight: 700;
     letter-spacing: -0.04em;
 }
-
-
-
 
 
 /* Extra small devices (portrait phones, less than 576px) */
