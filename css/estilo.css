@@ -4,6 +4,7 @@
 ----------------------------------*/
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -105,6 +106,13 @@ nav.navbar-transparente {
 
 .albuns {
     padding: 10px 0px;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg); /* IE */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia
